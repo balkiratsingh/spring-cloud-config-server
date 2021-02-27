@@ -10,4 +10,4 @@ logging:
     io.fullstacklabs: INFO
     org.springframework.web.servlet.DispatcherServlet: TRACE
 
-#test.name: Working
+test.name: Working
