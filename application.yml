@@ -1,0 +1,12 @@
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    Root: Error
+    org.springframework: DEBUG
