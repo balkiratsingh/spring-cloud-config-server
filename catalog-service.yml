@@ -9,3 +9,5 @@ logging:
   level:
     io.fullstacklabs: INFO
     org.springframework.web.servlet.DispatcherServlet: TRACE
+
+test.name: yooWorking
