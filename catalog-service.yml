@@ -5,6 +5,16 @@ spring:
   zipkin:
     base-url: http://localhost:9411/zipkin/
 
+  cloud:
+    vault:
+      port: 8200
+      host: localhost
+      scheme: http
+      authentication: token
+      token: s.TWlHxlypkKikxuc5BD2Et6RO
+      uri: http://localhost:8200
+
+
 logging:
   level:
     io.fullstacklabs: INFO
