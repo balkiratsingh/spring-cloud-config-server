@@ -5,12 +5,12 @@ management:
     web:
       exposure:
         include: "*"
-spring:
-  rabbitmq:
-    port: 5672
-    host: rabbit
-  config:
-    import: optional:configserver:http://${CONFIG_SERVER:localhost}:8888
+#spring:
+#  rabbitmq:
+#    port: 5672
+#    host: rabbit
+#  config:
+#    import: optional:configserver:http://${CONFIG_SERVER:localhost}:8888
 #    addresses: "rabbit:5672"
 #    password: guest
 #    username: guest
