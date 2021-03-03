@@ -7,8 +7,6 @@ spring:
 server:
   port: ${SERVER_PORT:8761}
 
-
-
 eureka:
   client:
     register-with-eureka: false
