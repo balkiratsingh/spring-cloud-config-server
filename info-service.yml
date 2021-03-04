@@ -1,10 +1,7 @@
 server:
   port: ${SERVER_PORT:8083}
 
-spring:
-  zipkin:
-    base-url: http://$zipkin:9411/zipkin/
-      enabled: true
+
 
 eureka:
   client:

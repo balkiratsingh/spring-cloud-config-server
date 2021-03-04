@@ -8,5 +8,5 @@ eureka:
 
 spring:
   zipkin:
-    base-url: http://${SERVICE_NAME:localhost}:9411/zipkin/
+    base-url: http://${SERVICE_NAME:localhost}:9411/
     enabled: true

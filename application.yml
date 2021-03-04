@@ -9,6 +9,9 @@ spring:
   rabbitmq:
     port: 5672
     host: rabbit
+  zipkin:
+    base-url: http://${SERVICE_NAME:localhost}:9411/
+    enabled: true
 
 #    addresses: "rabbit:5672"
 #    password: guest
